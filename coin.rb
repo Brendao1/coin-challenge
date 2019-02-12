@@ -1,25 +1,20 @@
+require_relative 'headcount'
+
 class Coin
 
-def initialize
-    @headcount = []
-    @score = 0
-end
+ #  def initialize
+ #   @headcount = Headcount.new
+ #   # @score = Score.new
+ # end
 
-def flip
+  def flip
     @randomizer = rand(1..2)
     @randomizer == 1 ? "heads" : "tails"
-end
-
-def headcount
-  if @randomizer == 1
-    @headcount << "heads"
   end
 
-  return @headcount
-  end
 
-  def score
-   @headcount.count
-  end
+  # def score
+  #   return coin.headcount
+  # end
 
 end
