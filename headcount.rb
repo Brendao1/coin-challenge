@@ -9,10 +9,10 @@ class Headcount
 
   def head_count(coin)
     if coin.flip == "heads"
-    @headcount << ("heads")
+      p @headcount << "heads"
+    end
+      @score = @headcount.count
+    return @score
   end
-    @score = @headcount.count
-  return @score
-end
 
 end
