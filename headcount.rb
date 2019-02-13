@@ -15,5 +15,4 @@ class Headcount
   return @score
 end
 
-# testing testing
 end
